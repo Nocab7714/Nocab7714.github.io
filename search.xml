@@ -6,6 +6,8 @@
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇章節會介紹何謂物件中的屬性特徵，透過認識屬性特徵，可以讓我們更加細部的對物件進行設定與控制。</p>
 <h2 id="什麼是屬性特徵呢？"><a href="#什麼是屬性特徵呢？" class="headerlink" title="什麼是屬性特徵呢？"></a>什麼是屬性特徵呢？</h2><p>在我們平時定義物件之後，如果打開 chrome 的 console 可以看到內容如下圖，我們只能知道物件中的值（value）：</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> person = &#123;</span><br><span class="line">  <span class="attr">a</span>: <span class="number">1</span>,</span><br><span class="line">  <span class="attr">b</span>: <span class="number">2</span>,</span><br><span class="line">  <span class="attr">c</span>: <span class="number">3</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(person);</span><br></pre></td></tr></table></figure>
+
+<p>123</p>
 ]]></content>
       <tags>
         <tag>JavaScript</tag>
