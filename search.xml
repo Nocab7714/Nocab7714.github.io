@@ -9,7 +9,7 @@
 <figure class="highlight jsx"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> person = &#123;</span><br><span class="line">  <span class="attr">a</span>: <span class="number">1</span>,</span><br><span class="line">  <span class="attr">b</span>: <span class="number">2</span>,</span><br><span class="line">  <span class="attr">c</span>: <span class="number">3</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(person);</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://i.imgur.com/3Usl9n0.png" alt="console 結果"></p>
-<p>可是這種方法並不能夠完全的看到物件中的屬性特徵，我們只能夠透過<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor" title="Object.getOwnPropertyDescriptor() - JavaScript | MDN">「Object.getOwnPropertyDescriptor」</a>這段語法來顯示出物件的屬性特徵，這段語法並不困難：</p>
+<p>可是這種方法並不能夠完全的看到物件中的屬性特徵，我們只能夠透過<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor" title="Object.getOwnPropertyDescriptor() - JavaScript | MDN">「Object.getOwnPropertyDescriptor」</a>這段語法來顯示出物件的屬性特徵：</p>
 <figure class="highlight jsx"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> person = &#123;</span><br><span class="line">  <span class="attr">a</span>: <span class="number">1</span>,</span><br><span class="line">  <span class="attr">b</span>: <span class="number">2</span>,</span><br><span class="line">  <span class="attr">c</span>: <span class="number">3</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title class_">Object</span>.<span class="title function_">getOwnPropertyDescriptor</span>(person,<span class="string">&#x27;a&#x27;</span>));</span><br><span class="line"><span class="comment">// Object.getOwnPropertyDescriptor(物件名稱,&#x27;屬性名稱&#x27;)</span></span><br></pre></td></tr></table></figure>
 
 <p>在程式碼運行後的結果就可以看到以下內容：<br><img src="https://i.imgur.com/RsGs9ie.png" alt="Object.getOwnPropertyDescriptor 的 console 結果"></p>
@@ -87,7 +87,6 @@
 
 <p><img src="https://i.imgur.com/BdORVR5.png" alt="Object.defineProperties 範例結果"></p>
 <hr>
-<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>以上就是關於屬性特徵的介紹與</p>
 ]]></content>
       <tags>
         <tag>JavaScript</tag>
